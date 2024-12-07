@@ -1,0 +1,274 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header page styling */
+.header{
+  width: 100%;
+  height: auto;
+  background-color: rgb(51, 51, 239);
+  box-shadow: 1px 1px 3px rgb(21, 21, 21);
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 12px;
+}.header nav{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}.header nav a{
+  color: aliceblue;
+  font-size: 80%;
+  text-decoration: none;
+  margin-right: 15px;
+}
+.header nav a:hover{
+  color: yellow;
+}
+
+
+/* home page styling */
+.front{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height:auto;
+  font-size: 90%;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+
+}.box{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  height:90vh;
+  text-align:left;
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 15px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../app/images/pexels-danny-meneses-340146-943096.jpg);
+}.box h2{
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 2.1em;
+  color: yellow;
+  text-shadow: 1px 1px 2px white;
+  background-color: rgba(23, 23, 23, 0.5);
+ 
+}.box p{
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  background-color: rgba(23, 23, 23, 0.5);
+}.box h4{
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: aliceblue;
+  text-shadow: 0px 0px 2px red;
+ 
+}.homebtn{
+  width: 60%;
+  padding: 5px;
+  margin-right: 10px;
+  background-color: rgb(185, 32, 185);
+  border: 2px solid purple;
+  color: aliceblue;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-shadow: 1px 1px 2px black;
+  box-shadow: 1px 1px 1px white;
+}.buttons{
+  display: flex;
+}
+
+
+/* footer styling here */
+
+.footer{
+  background-color: rgb(98, 98, 211);
+  text-align: center;
+  color: aliceblue;
+  font-size: 60%;
+  padding: 1px;
+}
+
+/* about page styling here */
+
+.box1{
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  width:100%;
+  height:90vh;
+  text-align:left;
+  color: aliceblue;
+  padding: 15px;
+  border-radius: 15px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../app/images/pexels-danny-meneses-340146-943096.jpg);
+}.box1 p{
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  background-color: rgba(23, 23, 23, 0.5);
+}.box1 h4{
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: aliceblue;
+  text-shadow: 0px 0px 2px red;
+ 
+}.box1 .buttons1{
+  width: 35%;
+}
+.box1 h2{
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 2.1em;
+  color: yellow;
+  text-shadow: 1px 1px 2px white;
+  background-color: rgba(23, 23, 23, 0.5);
+ 
+}.homebtn1{
+  width: 60%;
+  padding: 5px;
+  margin-right: 10px;
+  background-color: rgb(185, 32, 185);
+  border: 2px solid purple;
+  color: aliceblue;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-shadow: 1px 1px 2px black;
+  box-shadow: 1px 1px 1px white;
+}
+
+/* contact page styling here */
+
+.contact{
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../app/images/pexels-danny-meneses-340146-943096.jpg);
+}form{
+  width: 55%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  color: aliceblue;
+  border: 1px solid yellow;
+  padding: 15px;
+  box-shadow: 2px 2px 2px rgb(235, 235, 121);
+  
+}.contact h2{
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 2.1em;
+  color: yellow;
+  text-shadow: 1px 1px 2px white;
+  background-color: rgba(23, 23, 23, 0.5);
+}input{
+  width: 100%;
+  padding: 6px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+  border-radius: 10px;
+}textarea{
+  width: 100%;
+  padding: 6px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+  border-radius: 10px;
+}
+form p{
+  width: 100%;
+  text-align: left;
+}
+.contactbtn{
+  width: 98%;
+  border-radius: 12px;
+  background-color: yellow;
+  border: 2px solid yellow;
+  box-shadow: 2px 2px 2px rgb(235, 235, 121);
+  color: aliceblue;
+  padding: 10px;
+  text-shadow: 1px 1px 1px black;
+  font-weight: bold;
+}
+
+/* skills page styling here */
+.skills{
+  width: 100%;
+  height:auto;
+  display: grid;
+  row-gap: 18px;
+  column-gap: 15px;
+  grid-template-columns: repeat(3,minmax(250px,1fr));
+  place-items: center;
+  padding: 50px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../app/images/pexels-danny-meneses-340146-943096.jpg);
+}.card1{
+  height: 300px;
+  width: 270px;
+  border-radius: 12px;
+  border: 1px solid yellow;
+  box-shadow: 2px 2px 2px rgb(235, 235, 121);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: aliceblue;
+  font-size: 80%;
+
+}.icon{
+  font-size: 5em;
+  color: orangered;
+ 
+}.card1 p{
+  text-align: justify;
+  background-color: rgba(29, 28, 28,0.6);
+
+}
+
+@media(max-width:900px){
+  /* skills page */
+  .skills{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media(max-width:670px){
+  /* home page */
+  .box h2{
+    font-size: 1.6em;
+    text-align: center;
+  }
+  .box1 h2{
+    font-size: 1.6em;
+    text-align: center;
+  }
+  /* skills page */
+  .skills{
+    grid-template-columns: repeat(1,1fr);
+    padding: 20px;
+  }
+}
